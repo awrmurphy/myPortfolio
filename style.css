@@ -1,0 +1,97 @@
+:root{
+    --main-colour: #f8f7f4;
+    --background-colour: #2b2b2e;
+    --dropShadow:#d0d495;
+    --mainFont: Helvetica, Verdana, sans-serif;
+    
+}
+
+header.header{
+    
+    text-align:center;
+    position: sticky;
+    top: 0;
+    margin: 20px 20px;
+    border-style: solid;
+    border: 5px black;
+    
+    background: var(--background-colour);
+    color:  var(--main-colour);
+    text-shadow: 1px 1px 3px var(--dropShadow);
+    border-radius: 16px ;
+    opacity: 1;
+    font-family: var(--mainFont);
+    box-shadow:5px 4px 10px var(--dropShadow);
+}
+section.intro{
+    text-align: center;
+    position: relative;
+    padding: 5px 5px 5px 5px;
+    color: var(--main-colour);
+    font-family: var(--mainFont);
+    background: var(--background-colour);
+    border-radius: 16px ;
+    text-shadow: 2px 2px 3px var(--dropShadow);
+    z-index: -1;
+    box-shadow:4px 4px 10px var(--dropShadow);
+    margin: 10px 5px;
+}
+body{
+    background-color: var(--background-colour);
+}
+footer{
+    position: relative;
+    width:100%;
+    bottom:0px;
+    text-align: center;
+    color: var(--main-colour);
+    font-family: var(--mainFont);
+    text-shadow: 3px 3px 2px var(--dropShadow);
+}
+.flexbox-section{
+    text-align: center;
+    flex-direction: row;
+    font-family: var(--mainFont);
+    color: var(--main-colour);
+    background: var(--background-colour);
+    border-radius: 16px;
+    padding: 5px;
+    text-shadow: 3px 3px 2px var(--dropShadow);
+    box-shadow:4px 4px 10px var(--dropShadow);
+    margin: 10px 5px;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-around; 
+}
+.flex-item{
+ border-radius: 16px ;
+ background-color: var(--background-colour);
+ margin: 5px;
+ border-style: none;
+ width: 100%;
+ /* box-shadow:4px 4px 10px var(--dropShadow);*/
+ 
+}
+button {
+  border: none;
+  color: var(--main-colour);
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: var(--background-colour);
+  font-family: var(--mainFont);
+  text-shadow: 2px 2px 3px var(--dropShadow); 
+}
+
+section.placeholder{
+    font-family: var(--mainFont);
+    color: var(--main-colour);
+    background: var(--background-colour);
+    border-radius: 16px;
+    text-shadow: 2px 2px 2px var(--dropShadow);
+    box-shadow:4px 4px 10px var(--dropShadow);
+    text-align: center;
+    padding: 5px;
+}
