@@ -5,6 +5,9 @@
     --mainFont: Helvetica, Verdana, sans-serif;
     
 }
+*{
+    box-sizing: border-box
+}
 
 header.header{
     
@@ -46,7 +49,7 @@ footer{
     text-align: center;
     color: var(--main-colour);
     font-family: var(--mainFont);
-    text-shadow: 3px 3px 2px var(--dropShadow);
+    text-shadow: 2px 2px 2px var(--dropShadow);
 }
 .flexbox-section{
     text-align: center;
@@ -83,6 +86,13 @@ button {
   background-color: var(--background-colour);
   font-family: var(--mainFont);
   text-shadow: 2px 2px 3px var(--dropShadow); 
+  width:100%;
+  height:100%;
+  padding:10px 0px;
+  border-radius: 12px;
+  &:hover {
+    background-color:#3f3f46 ;
+  }
 }
 
 section.placeholder{
