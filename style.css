@@ -95,7 +95,27 @@ button {
   }
 }
 
-section.placeholder{
+section.about{
+    font-family: var(--mainFont);
+    color: var(--main-colour);
+    background: var(--background-colour);
+    border-radius: 16px;
+    text-shadow: 2px 2px 2px var(--dropShadow);
+    box-shadow:4px 4px 10px var(--dropShadow);
+    text-align: center;
+    padding: 5px;
+}
+section.projects{
+    font-family: var(--mainFont);
+    color: var(--main-colour);
+    background: var(--background-colour);
+    border-radius: 16px;
+    text-shadow: 2px 2px 2px var(--dropShadow);
+    box-shadow:4px 4px 10px var(--dropShadow);
+    text-align: center;
+    padding: 5px;
+}
+section.contact{
     font-family: var(--mainFont);
     color: var(--main-colour);
     background: var(--background-colour);
