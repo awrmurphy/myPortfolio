@@ -34,7 +34,7 @@ section.intro{
     font-family: var(--mainFont);
     background: var(--background-colour);
     border-radius: 16px ;
-    text-shadow: 2px 2px 3px var(--dropShadow);
+    text-shadow: 1px 1px 3px var(--dropShadow);
     z-index: -1;
     box-shadow:4px 4px 10px var(--dropShadow);
     margin: 10px 5px;
@@ -100,7 +100,7 @@ section.about{
     color: var(--main-colour);
     background: var(--background-colour);
     border-radius: 16px;
-    text-shadow: 2px 2px 2px var(--dropShadow);
+    text-shadow: 1px 1px 2px var(--dropShadow);
     box-shadow:4px 4px 10px var(--dropShadow);
     text-align: center;
     padding: 5px;
@@ -110,7 +110,7 @@ section.projects{
     color: var(--main-colour);
     background: var(--background-colour);
     border-radius: 16px;
-    text-shadow: 2px 2px 2px var(--dropShadow);
+    text-shadow: 1px 1px 2px var(--dropShadow);
     box-shadow:4px 4px 10px var(--dropShadow);
     text-align: center;
     padding: 5px;
@@ -120,7 +120,7 @@ section.contact{
     color: var(--main-colour);
     background: var(--background-colour);
     border-radius: 16px;
-    text-shadow: 2px 2px 2px var(--dropShadow);
+    text-shadow: 1px 1px 2px var(--dropShadow);
     box-shadow:4px 4px 10px var(--dropShadow);
     text-align: center;
     padding: 5px;
