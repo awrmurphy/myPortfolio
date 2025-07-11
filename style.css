@@ -26,6 +26,11 @@ header.header{
     font-family: var(--mainFont);
     box-shadow:5px 4px 10px var(--dropShadow);
 }
+
+header h1{
+    margin: 20px 20px 5px;
+    container: header / inline-size;
+}
 section.intro{
     text-align: center;
     position: relative;
@@ -51,7 +56,7 @@ footer{
     font-family: var(--mainFont);
     text-shadow: 2px 2px 2px var(--dropShadow);
 }
-.flexbox-section{
+header .flexbox-section{
     text-align: center;
     flex-direction: row;
     font-family: var(--mainFont);
@@ -60,8 +65,8 @@ footer{
     border-radius: 16px;
     padding: 5px;
     text-shadow: 3px 3px 2px var(--dropShadow);
-    box-shadow:4px 4px 10px var(--dropShadow);
-    margin: 10px 5px;
+    /*box-shadow:4px 4px 10px var(--dropShadow);*/
+    margin: 0px;
 }
 .flex-container{
     display: flex;
@@ -76,7 +81,7 @@ footer{
  /* box-shadow:4px 4px 10px var(--dropShadow);*/
  
 }
-button {
+a {
   border: none;
   color: var(--main-colour);
   text-align: center;
@@ -125,3 +130,12 @@ section.contact{
     text-align: center;
     padding: 5px;
 }
+/* @media (height < 800px){
+    .h1{
+        margin: 0px;
+        font-size: 1em;
+        position: fixed;
+        background-color: #f8f7f4;
+        color: red;
+    }
+}*/
