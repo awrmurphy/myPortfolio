@@ -109,6 +109,7 @@ section.about{
     box-shadow:4px 4px 10px var(--dropShadow);
     text-align: center;
     padding: 5px;
+    margin: 5px 5px;
 }
 section.projects{
     font-family: var(--mainFont);
@@ -119,6 +120,23 @@ section.projects{
     box-shadow:4px 4px 10px var(--dropShadow);
     text-align: center;
     padding: 5px;
+    margin: 5px 5px;
+}
+button{
+    border-radius: 16px;
+    border-style: none;
+    color: var(--main-colour);
+    background-color: var(--background-colour);
+    text-shadow: 1px 1px 3px var(--dropShadow);
+    width:100%;
+    height:100%;
+    padding:10px 0px;
+    text-align: center;
+    display: inline;
+    font-size: 16px;
+    &:hover {
+    background-color:#3f3f46 ;
+  }
 }
 section.contact{
     font-family: var(--mainFont);
@@ -129,6 +147,16 @@ section.contact{
     box-shadow:4px 4px 10px var(--dropShadow);
     text-align: center;
     padding: 5px;
+    margin: 5px 5px;
+}
+#proj1Content{
+    display: none;
+}
+#proj2Content{
+    display: none;
+}
+#proj3Content{
+    display: none;
 }
 /* @media (height < 800px){
     .h1{
