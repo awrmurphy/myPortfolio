@@ -167,3 +167,10 @@ section.contact{
         color: red;
     }
 }*/
+form{
+    width: 100%;
+    text-align: center;
+    border-style: dotted;
+    border-color: var(--dropShadow);
+    border-radius: 16px;
+}
