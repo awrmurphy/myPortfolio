@@ -1,15 +1,4 @@
-var toReveal='';
-function reveal(){
-    console.log(toReveal);
-  var x = document.getElementById(toReveal);
-  if (x.style.display === 'inline') {
-    x.style.display = 'none';
-    console.log('I ran!');
-    
-  } else {
-    x.style.display = 'inline';
-  }
-}
+
 function validateForm(){
     let x =document.forms["contactForm"]["name"].value;
     if (x==""){
@@ -38,3 +27,32 @@ function validateForm(){
         return true
     }
 }
+
+//FlipBoxes for projects
+const flipBoxes = document.querySelectorAll('.flip-box');
+flipBoxes.forEach(function(el){
+    el.addEventListener('mouseenter',function(){
+        el.classList.add('flip-box-active');
+    })
+    el.addEventListener('mouseleave',function(){
+        el.classList.remove('flip-box-active');
+    })
+    el.addEventListener('click',function(){
+        
+        
+        switch (el.getAttribute('id')){
+            case 'proj1Content':
+                var win = window.open('https://awrmurphy.github.io/CPAN113GroupAssignment/')
+                win.focus();
+                break;
+            case 'proj2Content':
+                var win = window.open('https://awrmurphy.github.io/dynamic-blog-website/')
+                win.focus();
+                break;
+            case 'proj3Content':
+                var win = window.open('https://awrmurphy.github.io/CPAN113Lab10/')
+                win.focus();
+                break;
+        }
+    })
+})

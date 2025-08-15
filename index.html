@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anthony Murphy's Professional Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <script defer src="script.js"></script>
 </head>
 <body id="top">
     <header class="header">
@@ -38,7 +38,7 @@
         <p>Within this domain I will showcase what I have learned and implemented in HTML, Javascript, and CSS</p>
     </section>
 
-    
+    <!-- adjust spacing around projects to fill with proper descriptions of the projects -->
 
     <section class="about" id="about">
     <h2>About Me</h2>
@@ -53,12 +53,32 @@
         <section class="projects" id="projects">
     <h2>Projects</h2>
 <section class="projects-flex">
-    <button onclick="toReveal=`proj1Content`,reveal()">A Project</button>
-    <p id="proj1Content">Here I will describe and showcase a project I have worked on and include a link to the repository and live page</p>
-    <button onclick="toReveal=`proj2Content`,reveal()">A Project</button>
-    <p id="proj2Content">Here I will describe and showcase a project I have worked on and include a link to the repository and live page</p>
-    <button onclick="toReveal=`proj3Content`,reveal()">A Project</button>
-    <p id="proj3Content">Here I will describe and showcase a project I have worked on and include a link to the repository and live page</p>
+    <div id="container">
+    
+    <div id="proj1Content" class="flip-box">
+        <p>The Nutrirep website was a project I completed alongside two classmates, we wanted to create an interactive website that would allow the user to track the calories, protein, and fat of the meals they planned for the week.</p>
+        <div class="flip-box-inner">
+            <div class="flip-box-front" id="flip-box-front-1"></div>
+            <div class="flip-box-back" id="flip-box-back-1"></div>
+        </div>
+    </div>
+    
+    <div id="proj2Content" class="flip-box">
+        <p>This dynamic blog site I created got a little out of hand, I decided to try adding additional features before nailing down my core functionality and as a result I had to stop work on the dark mode toggle and revolving post carousel.</p>
+        <div class="flip-box-inner">
+            <div class="flip-box-front" id="flip-box-front-2"></div>
+            <div class="flip-box-back" id="flip-box-back-2"></div>
+        </div>
+    </div>
+    
+    <div id="proj3Content" class="flip-box">
+        <p>This page was a lab on retrieving information with different fetch methods using the JSONPlaceholder API</p>
+        <div class="flip-box-inner">
+            <div class="flip-box-front" id="flip-box-front-3"></div>
+            <div class="flip-box-back" id="flip-box-back-3"></div>
+        </div>
+    </div>
+    </div>
     </section>
     </section>  
         <section class="contact" id="contact">
