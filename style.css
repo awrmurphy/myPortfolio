@@ -31,7 +31,7 @@ header h1{
     margin: 20px 20px 5px;
     container: header / inline-size;
 }
-section.intro{
+section.intro{/*Introduction section styling*/
     text-align: center;
     position: relative;
     padding: 5px 5px 5px 5px;
@@ -44,10 +44,10 @@ section.intro{
     box-shadow:4px 4px 10px var(--dropShadow);
     margin: 10px 5px;
 }
-body{
+body{/*Overall body styles*/
     background-color: var(--background-colour);
 }
-footer{
+footer{/*Footer styles*/
     position: relative;
     width:100%;
     bottom:0px;
@@ -56,7 +56,7 @@ footer{
     font-family: var(--mainFont);
     text-shadow: 2px 2px 2px var(--dropShadow);
 }
-header .flexbox-section{
+header .flexbox-section{/*Flexboxes begin */
     text-align: center;
     flex-direction: row;
     font-family: var(--mainFont);
@@ -99,8 +99,9 @@ a {
     background-color:#3f3f46 ;
   }
 }
+/*Flexboxes end*/
 
-section.about{
+section.about{/*About section styling*/
     font-family: var(--mainFont);
     color: var(--main-colour);
     background: var(--background-colour);
@@ -111,7 +112,7 @@ section.about{
     padding: 55px 5px 10px;
     margin: 15px 5px;
 }
-section.projects{
+section.projects{/*Projects section styling*/
     font-family: var(--mainFont);
     color: var(--main-colour);
     background: var(--background-colour);
@@ -123,7 +124,7 @@ section.projects{
     margin: 5px 5px;
     z-index: -1;
 }
-button{
+button{/*General button styling*/
     border-radius: 16px;
     border-style: none;
     color: var(--main-colour);
@@ -139,7 +140,7 @@ button{
     background-color:#3f3f46 ;
   }
 }
-section.contact{
+section.contact{/*Contact form styling*/
     font-family: var(--mainFont);
     color: var(--main-colour);
     background: var(--background-colour);
@@ -256,4 +257,14 @@ form{
 
 #flip-box-back-3 {
   background-image: url("assets/check.png");
+}
+/*Flip boxes end*/
+
+/*Image Lazy Loading*/
+img {
+  transition: opacity 0.5s;
+}
+
+img.loaded {
+  opacity: 1;
 }

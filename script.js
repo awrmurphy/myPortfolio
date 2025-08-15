@@ -56,3 +56,12 @@ flipBoxes.forEach(function(el){
         }
     })
 })
+
+document.addEventListener('DOMContentLoaded', function() {//lazyload images
+  const images = document.querySelectorAll('img');
+  images.forEach(function(image) {
+    image.addEventListener('load', function() {
+      image.classList.add('loaded');
+    });
+  });
+});
